@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    margin-top: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(242, 243, 243);
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+#logIn{
+color: black;
+font-size: 15PX;
+font-weight: bold;
+margin-left: 20PX;
+text-decoration: none;
+margin-top: 20px;
+}
+
+
+#sellButton{
+    border: 3px solid;
+    border-width: 6px;
+    width: 120px;
+    border-radius: 45%;
+    padding: 2px;
+    font-weight: bolder;
+    border-color: aqua blue blue yellow;
+    margin-left: 20px;
+}
+
+
+#logo{
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+#countrySelect{
+    margin-left: 20px;
+
+}
+
+input{
+    border: 2px solid;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 0px;
+
+    color: rgb(141, 131, 131);
+    
+}
+
+
+#searchBox{
+    width: 45%;
+    margin-left: 10px;
+}
+
+#searchIcon{
+    width: 50px;
+    height: 47px;
+    margin-top: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+li a:hover{
+    text-decoration: underline;
+} */
+
+.Navbar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .Navbar ul {
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+  }
+
+
+/* li{
+    list-style: none;
+    display: inline-block;
+    
+} */
+
+
+/* ul{
+    justify-content: space-between;
+} */
+
+#recomm{
+    font-size: 130%;
+    color: rgb(53, 53, 53);
+    margin-left: 7%;
+}
+
+.product{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 65%;
+    height: 50%;
+    justify-content: center;
+    padding: 5%;
+}
+.mainCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1% 3%;
+}
+.card{
+    border: rgb(131, 127, 127) 0.1px solid;
+    border-radius: 2%;
+    margin-top: 0%;
+    width: 250px;
+    height: 350px;
+    
+}
+
+.imgIcon{
+    display: inline-flex;
+    align-items: flex-start;
+
+}
+
+.heartIcon{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+
+.price{
+    border-left: rgb(230, 184, 0) 5px solid;
+    padding:2%;
+}
+.discription{
+    padding-top: 5px;
+    font-size: 15px;
+}
+.location{
+    padding-top: 15px;
+    font-size: 13px;
+}
+#date{
+    float: right;
+    font-size: 12px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:cornflowerblue;
+}
+
+ul li{
+    display: block;
+    text-decoration: none;
+}
+
+/* /* footer{
+    width: 100%;
+    height: 800px;
+} */
+
+/* .mainFooter{
+    
+    background-color:rgb(47, 57, 77);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+
+
+.footer-col{
+    width: 17%;
+    padding: 0 15px;
+}
+
+.Column h4{
+    font-size: 18px;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.Column h4::before{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: burlywood;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.Column ul li {
+    margin-bottom: 10px;
+    color: black;
+
+}
+.footer-col ul  {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;li
+    transition: all 0.3s ease;
+}
+
+.Column .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: #000;
+    margin-top: 50px;
+    float: right;
+} */
+
+.Column .social-links a:hover{
+    color: honeydew;
+    background-color:teal;
+    
+    
+}
+.follow_us{
+    margin: -8%;
+} 
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.Column h4{
+    font-size: 18px;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.Column h4::before{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: burlywood;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.Column ul li {
+    margin-bottom: 10px;
+    color: black;
+}
+.footer-col ul  {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;li
+    transition: all 0.3s ease;
+}
+.Column .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: #000;
+    margin-top: 5px;
+    float: right;
+}
+
+.footer-col{
+    width: 17%;
+    padding: 0 15px;
+}
+
+
+
+
+.xyz{
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    color: crimson;
+}
